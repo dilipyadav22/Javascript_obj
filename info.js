@@ -1,16 +1,4 @@
-//object inside objcet
-const {one:{name,age} , two:{name:twoname,age:twoage}} ={
-    one:{
-    name:"raju",
-    age:5
-    },
-    two:{
-        name:"dilip",
-        age:25
-    }
-}
-
-console.log(name);
-console.log(age);
-console.log(twoage);
-console.log(twoname);
+const dipu ={id:3};
+const key = "hello";
+const obj ={[key]:3}
+console.log(obj);
