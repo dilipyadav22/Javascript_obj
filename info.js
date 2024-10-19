@@ -1,14 +1,16 @@
 //object inside objcet
-const student ={
+const {one:{name,age} , two:{name:twoname,age:twoage}} ={
     one:{
     name:"raju",
-    age:5,
+    age:5
     },
     two:{
         name:"dilip",
-        age:25,
+        age:25
     }
 }
 
-console.log(student.one.age);
-console.log(student.two.name);
+console.log(name);
+console.log(age);
+console.log(twoage);
+console.log(twoname);
