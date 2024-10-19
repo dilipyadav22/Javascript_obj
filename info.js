@@ -1,13 +1,14 @@
-const name ="dilip";
-// here is duplicate "name" created here we "Alias" Method
-const {name:fname,age} =
-    {
+//object inside objcet
+const student ={
+    one:{
     name:"raju",
     age:5,
-
+    },
+    two:{
+        name:"dilip",
+        age:25,
+    }
 }
 
-
-console.log(age);
-console.log(name);
-console.log(fname);
+console.log(student.one.age);
+console.log(student.two.name);
