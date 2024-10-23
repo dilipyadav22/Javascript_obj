@@ -1,21 +1,22 @@
-function deep(a){
-    return(a);
+function deep(a,b){
+    return a+b;
 }
-var sri=deep(10);
+var sri=deep(10,10);
 console.log(sri)
+// console.log(sum);
 
 //
 
-let myfun =()=>{
-    console.log("deep");
-}
+// let myfun =()=>{
+//     console.log("deep");
+// }
 
 //
-dipu = ((a) =>{
-        return(a);
-})
+// dipu = ((a) =>{
+//         return(a);
+// })
 
-var r = dipu(15)
-console.log(r)
+// var r = dipu(15)
+// console.log(r)
 
 
