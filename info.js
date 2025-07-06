@@ -46,17 +46,17 @@ const stud= [
         age:60,
     },
 ]
+// var res=0;
+
+// stud.map((item ,i)=>{
+//     res=res+item.age;
+
+// })
+// console.log(res);
+
 var res=0;
-
-stud.map((item ,i)=>{
-    res=res+item.age;
-
-})
+for(let i=0;i<stud.length;i++){
+     res=res+stud[i].age;
+}
 console.log(res);
 
-// var res=0;
-// for(let i=0;i<stud.length;i++){
-//      res=res+stud[i].age;
-//     // console.log(stud[i])
-// }
-// console.log(res);

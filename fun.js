@@ -19,10 +19,11 @@ function handlePosts(posts) {
  var da= handlePosts();
 
  for (let i = 0; i <da.length; i++) {
-    savePost(da[i]);
+    var res= savePost(da[i]);
+      console.log(res)
+
   }
-console.log(da[0]);
     function savePost(post){
-        // console.log("saved");
-        return post;
+        // console.log(post);
+          return post;
     }
